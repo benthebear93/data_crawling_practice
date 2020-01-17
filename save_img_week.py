@@ -23,14 +23,16 @@ make_dir()
 req = urllib.request.Request('https://comic.naver.com/webtoon/weekday.nhn')
 html = urllib.request.urlopen(req).read()
 soup = BeautifulSoup(html, 'html.parser')
-
 link = soup.find_all("div", {"class" : "thumb"})
+print(link)
+idx = 0
 for m in link:
 	week_check = m.a.get("href")
 	week_check  = week_check[-3:]
 	imgUrl = m.find_all("img")
-	for j in imgUrl:
-		img_link = j.get('src')
-		title = j.get('alt')
-		idx = 1
-		save_file(week_check, title)
+	print(idx, " : ", imgUrl)
+	idx +=1
+	#for j in imgUrl:
+	img_link = imgUrl[0].get('src')
+	title = imgUrl[0].get('alt')
+	save_file(week_check, title)
