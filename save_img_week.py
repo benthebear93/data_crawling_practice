@@ -30,9 +30,6 @@ for m in link:
 	week_check = m.a.get("href")
 	week_check  = week_check[-3:]
 	imgUrl = m.find_all("img")
-	print(idx, " : ", imgUrl)
-	idx +=1
-	#for j in imgUrl:
 	img_link = imgUrl[0].get('src')
 	title = imgUrl[0].get('alt')
 	save_file(week_check, title)
