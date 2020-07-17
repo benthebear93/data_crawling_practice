@@ -23,5 +23,5 @@ All the code in here just for the data crawling practice
 
 * #### D2_startup_crawliing :: Organize D2 Startup page data
   * address : http://www.d2startup.com/portfolio
-* d2_startup_crawling.py : sort the D2 Stratup area and visualize with Pie graph
+  * d2_startup_crawling.py : sort the D2 Stratup area and visualize with Pie graph
 
