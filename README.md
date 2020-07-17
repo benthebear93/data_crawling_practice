@@ -25,3 +25,4 @@ All the code in here just for the data crawling practice
   * address : http://www.d2startup.com/portfolio
   * d2_startup_crawling.py : sort the D2 Stratup area and visualize with Pie graph
 
+![Figure_1](https://user-images.githubusercontent.com/34788458/87795212-b1a67000-c882-11ea-8f82-ead4930caadc.png)
