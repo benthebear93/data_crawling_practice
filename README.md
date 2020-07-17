@@ -20,3 +20,8 @@ All the code in here just for the data crawling practice
 
   * address : https://m.cafe.naver.com/ArticleSearchList.nhn?search.query=%EA%B0%80%EB%A1%9C%EC%88%98%EA%B8%B8%EB%A7%9B%EC%A7%91&search.menuid=&search.searchBy=1&search.sortBy=date&search.clubid=11262350&search.option=0&search.defaultValue=1
 * cafe_crawling.py : save the specific keyword search result titles to csv
+
+* #### D2_startup_crawliing :: Organize D2 Startup page data
+  * address : http://www.d2startup.com/portfolio
+* d2_startup_crawling.py : sort the D2 Stratup area and visualize with Pie graph
+
